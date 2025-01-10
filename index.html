@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home"class="hero-section">
+        <h1>welcome to my portfolio</h1>
+        <p>Hello, I'm a web developer with a passion for creating beautiful and functional websites Absolutely! Let's add more content for the "About Me" section to make your portfolio more personalized and insightful. Below is an enriched example that provides a detailed introduction and description about yourself and your portfolio.
+index.html. Welcome to my portfolio!</p>
+<p>this project highlights my experience with fronted development.</p>
+<a href="#projects"class="cta">see my work</a>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>about me</h2>
+                <p> web page </p>
+                <img src="images/project.jpg" alt="profile picture" width="150">
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2> MY projects</h2>
+        <div class="project">
+            <img src="images/project1.jpg" alt="Project 1" width="150" >
+            <h3>Project 1</h3>
+            <p>A book is a medium for recording information in the form of writing or images and the sto0rys Modern books are typically in codex format, composed of many pages that are bound together and protected by a cover; they were preceded by several earlier formats, including the scroll and the tablet. The book publishing process is the series of steps involved in their creation and dissemination.</p>
+        </div>
+        <div class="project" onclick="showProjectDetails('project2')">
+            <img src="images/project2.jpg" alt="Profile picture" width="150" height="170">
+            <h3>Project 2</h3>
+            <p>Coding tells a machine which actions to perform and how to complete tasks.websites and linksElectronic devices like cell phones, laptops, and tablets require code to function properly. Coding allows humans to communicate with these devices. Modern technology such as traffic lights, calculators, smart TVs, and cars use internal coding systems HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.</p>
+        
+            <p>This project does not have any dependencies use plain HTML, CSS, and JavaScript,portfolio HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.</p>
+           <a href="#">view project</a>
+        </div>
+
+        <div class="project" onclick="showProjectDetails('project3')">
+            <img src="images/project3.jpg" alt="Profile picture" width="150" height="170">
+            <h3>Project 3</h3>
+            <p>Coding tells a machine which actions to perform and how to complete tasks.websites and linksElectronic devices like cell phones, laptops, and tablets require code to function properly. Coding allows humans to communicate with these devices. Modern technology such as traffic lights, calculators, smart TVs, and cars use internal coding systems HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes.</p>
+        
+            <p>This project does not have any dependencies use plain HTML, CSS, and JavaScript,portfolio HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.</p>
+           <a href="#">view project</a>
+        </div>
+    </section>
+
+    <section id="links" class="links-sections">
+        <h2>Links</h2>
+        <div class="links-content">
+            <a href="mailto:your-email@example.com">Email:your-email@example.com></a>
+            <br>
+            <a href="https://github.com/your-github-username" target="_blank">GitHub: your-github-username</a>
+        </div>
+    </section>
+    <section id="courses" class="text-center">
+        <h2>COURSES</h2>
+        
+               <li>Course 1:Introduction to Webpage</li>
+               <li>Course 2:Advanced javascript Techniques</li>
+               <li>Course 3:Mastering CSS Frameworks</li>
+        
+    </section>
+    
+
+    <section id="contact" class="contact-section">
+        <h2>Contact me</h2>
+        <from id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="message">message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br><br>
+
+            <button type="submit">submit</button>
+
+        </from>
+        
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 [your name]. All rights reserved.</p>
+        <p> follow me on
+            <a href="#">twitter</a>,
+            <a href="#">LinkedIn</a>,
+            <a href="#">Github</a>
+        </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
